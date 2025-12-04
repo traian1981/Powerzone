@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Powerzone</title>
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Powerzone</title>
+
+    <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -14,7 +15,7 @@
         }
 
         header {
-            background: linear-gradient(90deg, red, black, yellow);
+            background: linear-gradient(90deg, red, darkred);
             padding: 30px 10px;
             font-size: 32px;
             font-weight: bold;
@@ -24,11 +25,17 @@
 
         .hero {
             padding: 60px 20px;
-            background: url("https://images.unsplash.com/photo-1517964109272-b7b3886a4d93?auto=format&fit=crop&w=1200&q=80") center/cover;
+            background: url("images/hero-bg.png") center/cover no-repeat;
             color: yellow;
             font-size: 32px;
             font-weight: bold;
             text-shadow: 0 0 10px black;
+        }
+
+        .hero img {
+            width: 280px;
+            margin-top: 20px;
+            filter: drop-shadow(0 0 10px black);
         }
 
         .section {
@@ -43,47 +50,33 @@
             display: inline-block;
             margin-top: 20px;
             padding: 14px 28px;
-            background: red;
-            color: white;
             font-size: 20px;
-            font-weight: bold;
-            border-radius: 5px;
-            text-decoration: none;
-            border: 2px solid yellow;
-            box-shadow: 0 0 15px red;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: yellow;
             color: black;
-            box-shadow: 0 0 20px yellow;
+            background: yellow;
+            border-radius: 10px;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <header>POWERZONE</header>
 
-    <div class="hero">
-        Transformă-te în cea mai bună versiune a ta 💪🔥
-        <a class="btn" href="#">🔥 Intră în Powerzone</a>
-    </div>
+<header>Powerzone</header>
 
-    <div class="section">
-        <h2>Program de Antrenament</h2>
-        <p>Programe pentru masă musculară, slăbit și rezistență.</p>
-        <a class="btn" href="#">Vezi detalii</a>
-    </div>
+<div class="hero">
+    Transformă-ți corpul. Fără scuze.
+    <br>
 
-    <div class="section">
-        <h2>Plan Nutrițional</h2>
-        <p>Alimentație optimizată pentru performanță maximă.</p>
-        <a class="btn" href="#">Află mai mult</a>
-    </div>
+    <!-- Vikingul încărcat din GitHub -->
+    <img src="images/8E84EA15-2392-488E-A899-0788A21B7A4A.png" alt="viking">
+</div>
 
-    <footer style="padding: 20px; background:#222; margin-top:40px;">
-        © 2025 Powerzone. All rights reserved.
-    </footer>
+<div class="section">
+    <h2>Program de antrenament</h2>
+    <p>Descoperă programele făcute special pentru tine.</p>
+    <a class="btn" href="#">Începe acum</a>
+</div>
+
 </body>
 </html>
