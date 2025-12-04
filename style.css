@@ -1,0 +1,52 @@
+/* Fundal Viking agresiv */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 15px black;
+}
+
+/* Titlu mare și agresiv */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Subtitlu */
+p {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+
+/* Buton agresiv */
+.btn {
+    background: rgba(0,0,0,0.8);
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid red;
+    box-shadow: 0 0 15px red;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: red;
+    box-shadow: 0 0 25px yellow;
+    border-color: yellow;
+}
